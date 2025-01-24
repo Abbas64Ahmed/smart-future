@@ -361,7 +361,7 @@ header nav .form i {
   height: 600px;
   position: relative;
   background-size: cover;
-  background-image: url("/images/design-features.jpg");
+  background-image: url("../images/value.jpg");
   display: flex;
   align-items: center;
   overflow: hidden;
