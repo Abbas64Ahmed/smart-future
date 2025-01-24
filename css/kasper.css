@@ -415,12 +415,12 @@ header nav .form i {
   padding: 15px 0;
 }
 @media (max-width: 767px) {
-.value .text ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  
+  .value .text ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 .value .text ul li i {
   padding-right: 10px;
