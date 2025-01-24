@@ -318,8 +318,14 @@ header nav .form i {
     /* text-align: center; */
     margin-bottom: 40px;
   }
+  .services .srv-box {
+    text-align: center;
+  }
   .services .srv-box i {
     margin: 0 0 30px;
+  }
+  .services .srv-box ul {
+    text-align: left;
   }
 }
 .services .srv-box h3 {
@@ -396,6 +402,7 @@ header nav .form i {
   font-weight: normal;
   text-transform: uppercase;
   margin-bottom: 40px;
+  /* text-align: center; */
 }
 .value .text ul {
   display: flex;
@@ -406,6 +413,18 @@ header nav .form i {
 }
 .value .text ul li {
   padding: 15px 0;
+}
+@media (max-width: 767px) {
+.value .text ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.value .text ul li i {
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 /* End value */
@@ -565,6 +584,9 @@ header nav .form i {
   display: flex;
   gap: 40px;
   text-align: left;
+}
+.about .text .col p {
+  margin-bottom: 20px;
 }
 /* End About */
 
